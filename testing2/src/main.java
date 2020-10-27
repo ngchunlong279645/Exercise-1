@@ -143,8 +143,10 @@ public class main {
 		Scanner in = new Scanner (System.in);
 		System.out.print("ENTER YOUR AWARDS           :");
 		String awards = in.nextLine();
-		System.out.println("awards"+"\t\t\t"+"    :"+awards);
+		System.out.println("Awards"+"\t\t\t"+"    :"+awards);
 		
+		
+		in.close();
 	}
 	
 }
